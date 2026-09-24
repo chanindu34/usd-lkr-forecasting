@@ -75,7 +75,16 @@ model_metadata.json            configuration and performance, including the naiv
 prediction_visualization.png   actual vs predicted rates
 feature_importance.png         feature importance breakdown
 mlflow.db                      MLflow tracking store (SQLite), 11 logged runs
+requirements.txt               dependencies
 ```
+
+## Setup
+
+```
+pip install -r requirements.txt
+```
+
+Then run usd_forecasting.ipynb top to bottom to reproduce training, or use the saved model directly, see below.
 
 ## Using the model
 
